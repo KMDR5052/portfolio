@@ -1,0 +1,30 @@
+/* Style for the sticky top bar */
+.sticky-top-bar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensures the bar is on top of other content */
+    border-bottom: 3px solid #120202; /* Adds the margin-like line under the bar */
+    
+
+}
+
+
+.sticky-top-bar a {
+    color: black;
+    text-decoration: lightgreen;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.sticky-top-bar a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Content section */
+.content {
+    padding: 20px;
+}

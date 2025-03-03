@@ -1,0 +1,80 @@
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: calc(50% - 40px); /* Two columns */
+    box-sizing: border-box;
+    text-align: right;
+    
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+    padding: 2px 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #070707;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: rgb(27, 179, 53);
+    border-bottom: 1px solid black;
+}
+#additional-details{
+    padding-left: 65px;
+}
+.other-projects {
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.other-projects h2 {
+    font-size: 1.4em;
+    flex-direction: column; 
+}
+
+.resume-button {
+    font-size: 0.8em;
+    padding: 8px 16px; 
+}
+.social-icons {
+    margin-bottom: 10px; 
+    display: flex;
+    justify-content: flex-start; 
+    gap: 25px; 
+    padding-left: 30px;
+}
